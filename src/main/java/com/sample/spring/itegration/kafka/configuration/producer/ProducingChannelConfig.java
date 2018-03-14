@@ -1,4 +1,4 @@
-package com.sample.spring.itegration.kafka.configuration;
+package com.sample.spring.itegration.kafka.configuration.producer;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -12,7 +12,8 @@ import java.util.Map;
 
 @Configuration
 public class ProducingChannelConfig {
-  @Value("${kafka.bootstrap-servers}")
+
+  @Value("${kafka.bootstrap.servers}")
   private String bootstrapServers;
 
 
