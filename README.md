@@ -5,7 +5,7 @@ Sample project for using spring integration with Kafka
 - TBD
 
 ## Steps
-- [Start Kafka](./Kafka.md)
+- [Start Kafka](doc/Kafka.md)
 
 ## Licence 
 NA
