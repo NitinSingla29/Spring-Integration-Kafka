@@ -1,11 +1,17 @@
 # Spring-Integration-Kafka
 Sample project for using spring integration with Kafka
 
+## Problem Statement
+- TBD
 
-##Start Zookeeper on windows
-- cd <ZOOKEEPER_HOME>/bin
-- zkServer.cmd
+## Steps
+- [Start Kafka](./Kafka.md)
 
-##Start Kafka
-- cd <KAFKA_HOME>/bin/windows/
-- kafka-server-start.bat ../../config/server.properties
+## Licence 
+NA
+
+
+## References
+    - https://www.tutorialspoint.com/apache_kafka/index.htm
+    - https://www.youtube.com/playlist?list=PLkz1SCf5iB4enAR00Z46JwY9GGkaS2NON
+    
