@@ -13,7 +13,7 @@ public class Listener {
 
   private final CountDownLatch latch1 = new CountDownLatch(1);
 
-  @KafkaListener(id = "foo", topics = "annotated1")
+  @KafkaListener(id = "foo", topics = "test-topic1")
   public void listen1(String message) {
     logger.debug("Received message {}", message);
     System.out.println("Received message : " + message);
